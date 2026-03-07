@@ -1,6 +1,8 @@
 # Flask User Management REST API
 
-This project is a backend REST API built using Flask and SQLite that supports full CRUD operations for managing users.
+A backend REST API built using Flask and SQLite that supports full CRUD operations for managing users.
+
+---
 
 ## Features
 
@@ -10,6 +12,8 @@ This project is a backend REST API built using Flask and SQLite that supports fu
 - Update user details (PUT /users/<id>)
 - Delete a user (DELETE /users/<id>)
 
+---
+
 ## Tech Stack
 
 - Python
@@ -18,6 +22,8 @@ This project is a backend REST API built using Flask and SQLite that supports fu
 - REST API
 - JSON
 
+---
+
 ## Project Structure
 
 app.py – Main Flask application  
@@ -25,6 +31,8 @@ database.py – Database connection
 models/ – Database query logic  
 routes/ – API route definitions  
 requirements.txt – Project dependencies  
+
+---
 
 ## Example API Request
 
@@ -44,6 +52,8 @@ Response
 {
   "message": "user created"
 }
+
+---
 
 ## How to Run the Project
 
@@ -66,6 +76,8 @@ python app.py
 Server runs at
 
 http://127.0.0.1:5001
+
+---
 
 ## Author
 
