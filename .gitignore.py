@@ -1,0 +1,11 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+users.db
+practice.py
+practice_backend.py
+app2.py
+main.py
+.py
+.gitignore.py
